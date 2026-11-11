@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuroNexus Hospital Management System</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏥</text></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'srm-blue': '#005A9C',
+              'srm-lightblue': '#E6F0F6',
+              'srm-gray': '#F7FAFC',
+              'srm-darkgray': '#4A5568',
+              'srm-green': '#38A169',
+              'srm-yellow': '#D69E2E',
+              'srm-red': '#E53E3E',
+              // New theme colors for patient portal
+              'srm-header-green': '#004D40',
+              'srm-gold-text': '#FFD700',
+              'srm-yellow-action': '#FBC02D',
+              'srm-bg-body': '#F0F7F7',
+              'srm-portal-green': '#4CAF50',
+              'srm-portal-blue': '#2196F3',
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-srm-bg-body">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

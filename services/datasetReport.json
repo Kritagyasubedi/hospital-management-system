@@ -1,0 +1,297 @@
+{
+  "summary": {
+    "total_outcomes": 3200,
+    "total_telemetry_files": 3200,
+    "in_hospital_deaths": 443,
+    "survivors": 2757,
+    "mortality_percentage": 13.84
+  },
+  "survival_field_analysis": {
+    "negative_one_count": 2018,
+    "positive_count": 1182,
+    "min": -1.0,
+    "max": 2600.0,
+    "mean_positive": 355.92893401015226,
+    "median_positive": 70.5
+  },
+  "telemetry_duration_hours": {
+    "min_hours": 0.0,
+    "max_hours": 48.0,
+    "median_hours": 47.55,
+    "q25_hours": 47.233333333333334,
+    "q75_hours": 47.8,
+    "short_records_lt_24h": 10,
+    "full_records_gte_48h": 66
+  },
+  "observations_per_patient": {
+    "min_obs": 6,
+    "max_obs": 1502,
+    "median_obs": 427.0,
+    "mean_obs": 438.53
+  },
+  "icu_types_distribution": {
+    "4": 852,
+    "3": 1162,
+    "1": 466,
+    "2": 720
+  },
+  "gender_distribution": {
+    "0": 1427,
+    "1": 1771,
+    "-1": 2
+  },
+  "parameters": {
+    "ALP": {
+      "total_occurrences": 2451,
+      "valid_count": 2451,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "ALT": {
+      "total_occurrences": 2527,
+      "valid_count": 2527,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "AST": {
+      "total_occurrences": 2530,
+      "valid_count": 2530,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Age": {
+      "total_occurrences": 3200,
+      "valid_count": 3200,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Albumin": {
+      "total_occurrences": 1898,
+      "valid_count": 1898,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "BUN": {
+      "total_occurrences": 11078,
+      "valid_count": 11078,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Bilirubin": {
+      "total_occurrences": 2525,
+      "valid_count": 2525,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Cholesterol": {
+      "total_occurrences": 251,
+      "valid_count": 251,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Creatinine": {
+      "total_occurrences": 11132,
+      "valid_count": 11132,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "DiasABP": {
+      "total_occurrences": 117346,
+      "valid_count": 117346,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "FiO2": {
+      "total_occurrences": 25883,
+      "valid_count": 25883,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "GCS": {
+      "total_occurrences": 49199,
+      "valid_count": 49199,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Gender": {
+      "total_occurrences": 3200,
+      "valid_count": 3198,
+      "sentinel_negative_one_count": 2,
+      "missingness_percentage": 0.06
+    },
+    "Glucose": {
+      "total_occurrences": 10326,
+      "valid_count": 10326,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "HCO3": {
+      "total_occurrences": 10830,
+      "valid_count": 10830,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "HCT": {
+      "total_occurrences": 14657,
+      "valid_count": 14657,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "HR": {
+      "total_occurrences": 182280,
+      "valid_count": 182280,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Height": {
+      "total_occurrences": 3200,
+      "valid_count": 1697,
+      "sentinel_negative_one_count": 1503,
+      "missingness_percentage": 46.97
+    },
+    "ICUType": {
+      "total_occurrences": 3200,
+      "valid_count": 3200,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "K": {
+      "total_occurrences": 11468,
+      "valid_count": 11468,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Lactate": {
+      "total_occurrences": 6335,
+      "valid_count": 6335,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "MAP": {
+      "total_occurrences": 117502,
+      "valid_count": 117502,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "MechVent": {
+      "total_occurrences": 24855,
+      "valid_count": 24855,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Mg": {
+      "total_occurrences": 10807,
+      "valid_count": 10807,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "NIDiasABP": {
+      "total_occurrences": 77456,
+      "valid_count": 77456,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "NIMAP": {
+      "total_occurrences": 76419,
+      "valid_count": 76419,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "NISysABP": {
+      "total_occurrences": 77544,
+      "valid_count": 77544,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Na": {
+      "total_occurrences": 10769,
+      "valid_count": 10769,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "PaCO2": {
+      "total_occurrences": 18808,
+      "valid_count": 18808,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "PaO2": {
+      "total_occurrences": 18785,
+      "valid_count": 18785,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Platelets": {
+      "total_occurrences": 11260,
+      "valid_count": 11260,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "RecordID": {
+      "total_occurrences": 3200,
+      "valid_count": 3200,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "RespRate": {
+      "total_occurrences": 43663,
+      "valid_count": 43663,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "SaO2": {
+      "total_occurrences": 6734,
+      "valid_count": 6734,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "SysABP": {
+      "total_occurrences": 117408,
+      "valid_count": 117408,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Temp": {
+      "total_occurrences": 69491,
+      "valid_count": 69491,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "TroponinI": {
+      "total_occurrences": 356,
+      "valid_count": 356,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "TroponinT": {
+      "total_occurrences": 1643,
+      "valid_count": 1643,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Urine": {
+      "total_occurrences": 109818,
+      "valid_count": 109818,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "WBC": {
+      "total_occurrences": 10310,
+      "valid_count": 10310,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    },
+    "Weight": {
+      "total_occurrences": 101282,
+      "valid_count": 101024,
+      "sentinel_negative_one_count": 258,
+      "missingness_percentage": 0.25
+    },
+    "pH": {
+      "total_occurrences": 19670,
+      "valid_count": 19670,
+      "sentinel_negative_one_count": 0,
+      "missingness_percentage": 0.0
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "model_version": "early-warning-v1.0",
+  "dataset": "PhysioNet 2012 Challenge (ICU Deterioration)",
+  "baseline_logistic_regression": {
+    "model_name": "Baseline Logistic Regression",
+    "auroc": 0.7911,
+    "auprc": 0.4207,
+    "brier_score": 0.1598,
+    "optimal_threshold": 0.608,
+    "precision_at_optimal": 0.389,
+    "recall_at_optimal": 0.5644,
+    "f1_at_optimal": 0.4606,
+    "specificity_at_optimal": 0.8573,
+    "precision_at_05": 0.3283,
+    "recall_at_05": 0.6591,
+    "f1_at_05": 0.4383,
+    "confusion_matrix": [
+      [
+        1406,
+        234
+      ],
+      [
+        115,
+        149
+      ]
+    ]
+  },
+  "random_forest": {
+    "model_name": "Random Forest",
+    "auroc": 0.8434,
+    "auprc": 0.4777,
+    "brier_score": 0.1186,
+    "optimal_threshold": 0.348,
+    "precision_at_optimal": 0.3506,
+    "recall_at_optimal": 0.7955,
+    "f1_at_optimal": 0.4867,
+    "specificity_at_optimal": 0.7628,
+    "precision_at_05": 0.46,
+    "recall_at_05": 0.3485,
+    "f1_at_05": 0.3966,
+    "confusion_matrix": [
+      [
+        1251,
+        389
+      ],
+      [
+        54,
+        210
+      ]
+    ]
+  },
+  "calibrated_lightgbm_production": {
+    "model_name": "Calibrated LightGBM (Production)",
+    "auroc": 0.8137,
+    "auprc": 0.4456,
+    "brier_score": 0.0985,
+    "optimal_threshold": 0.186,
+    "precision_at_optimal": 0.3483,
+    "recall_at_optimal": 0.6174,
+    "f1_at_optimal": 0.4454,
+    "specificity_at_optimal": 0.814,
+    "precision_at_05": 0.8333,
+    "recall_at_05": 0.0947,
+    "f1_at_05": 0.1701,
+    "confusion_matrix": [
+      [
+        1335,
+        305
+      ],
+      [
+        101,
+        163
+      ]
+    ]
+  },
+  "calibration_curve": [
+    {
+      "bin_range": "0.0-0.1",
+      "mean_predicted_prob": 0.051,
+      "observed_fraction_pos": 0.034,
+      "sample_count": 969
+    },
+    {
+      "bin_range": "0.1-0.2",
+      "mean_predicted_prob": 0.143,
+      "observed_fraction_pos": 0.162,
+      "sample_count": 518
+    },
+    {
+      "bin_range": "0.2-0.3",
+      "mean_predicted_prob": 0.244,
+      "observed_fraction_pos": 0.253,
+      "sample_count": 245
+    },
+    {
+      "bin_range": "0.3-0.4",
+      "mean_predicted_prob": 0.345,
+      "observed_fraction_pos": 0.43,
+      "sample_count": 107
+    },
+    {
+      "bin_range": "0.4-0.5",
+      "mean_predicted_prob": 0.442,
+      "observed_fraction_pos": 0.4,
+      "sample_count": 35
+    },
+    {
+      "bin_range": "0.5-0.6",
+      "mean_predicted_prob": 0.551,
+      "observed_fraction_pos": 0.789,
+      "sample_count": 19
+    },
+    {
+      "bin_range": "0.6-0.7",
+      "mean_predicted_prob": 0.631,
+      "observed_fraction_pos": 0.875,
+      "sample_count": 8
+    },
+    {
+      "bin_range": "0.7-0.8",
+      "mean_predicted_prob": 0.718,
+      "observed_fraction_pos": 1.0,
+      "sample_count": 3
+    }
+  ]
+}

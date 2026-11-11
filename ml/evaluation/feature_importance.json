@@ -1,0 +1,202 @@
+[
+  {
+    "feature": "Age_val",
+    "importance": 242,
+    "relative_weight": 0.0428
+  },
+  {
+    "feature": "Weight_val",
+    "importance": 139,
+    "relative_weight": 0.0246
+  },
+  {
+    "feature": "bun_cr_ratio",
+    "importance": 117,
+    "relative_weight": 0.0207
+  },
+  {
+    "feature": "Platelets_max",
+    "importance": 105,
+    "relative_weight": 0.0186
+  },
+  {
+    "feature": "Urine_mean",
+    "importance": 86,
+    "relative_weight": 0.0152
+  },
+  {
+    "feature": "GCS_mean",
+    "importance": 86,
+    "relative_weight": 0.0152
+  },
+  {
+    "feature": "Glucose_max",
+    "importance": 82,
+    "relative_weight": 0.0145
+  },
+  {
+    "feature": "PaCO2_mean",
+    "importance": 77,
+    "relative_weight": 0.0136
+  },
+  {
+    "feature": "BUN_mean",
+    "importance": 75,
+    "relative_weight": 0.0133
+  },
+  {
+    "feature": "shock_index_max",
+    "importance": 71,
+    "relative_weight": 0.0126
+  },
+  {
+    "feature": "Creatinine_min",
+    "importance": 66,
+    "relative_weight": 0.0117
+  },
+  {
+    "feature": "HCT_min",
+    "importance": 66,
+    "relative_weight": 0.0117
+  },
+  {
+    "feature": "pH_min",
+    "importance": 66,
+    "relative_weight": 0.0117
+  },
+  {
+    "feature": "GCS_last",
+    "importance": 65,
+    "relative_weight": 0.0115
+  },
+  {
+    "feature": "Urine_time_since_last",
+    "importance": 63,
+    "relative_weight": 0.0111
+  },
+  {
+    "feature": "SysABP_mean",
+    "importance": 63,
+    "relative_weight": 0.0111
+  },
+  {
+    "feature": "HR_min",
+    "importance": 61,
+    "relative_weight": 0.0108
+  },
+  {
+    "feature": "RespRate_time_since_last",
+    "importance": 59,
+    "relative_weight": 0.0104
+  },
+  {
+    "feature": "DiasABP_mean",
+    "importance": 59,
+    "relative_weight": 0.0104
+  },
+  {
+    "feature": "HR_max",
+    "importance": 59,
+    "relative_weight": 0.0104
+  },
+  {
+    "feature": "Urine_max",
+    "importance": 59,
+    "relative_weight": 0.0104
+  },
+  {
+    "feature": "BUN_min",
+    "importance": 58,
+    "relative_weight": 0.0103
+  },
+  {
+    "feature": "Temp_min",
+    "importance": 57,
+    "relative_weight": 0.0101
+  },
+  {
+    "feature": "PaO2_max",
+    "importance": 55,
+    "relative_weight": 0.0097
+  },
+  {
+    "feature": "SysABP_max",
+    "importance": 55,
+    "relative_weight": 0.0097
+  },
+  {
+    "feature": "FiO2_mean",
+    "importance": 55,
+    "relative_weight": 0.0097
+  },
+  {
+    "feature": "GCS_std",
+    "importance": 55,
+    "relative_weight": 0.0097
+  },
+  {
+    "feature": "Temp_max",
+    "importance": 54,
+    "relative_weight": 0.0095
+  },
+  {
+    "feature": "Temp_mean",
+    "importance": 54,
+    "relative_weight": 0.0095
+  },
+  {
+    "feature": "HR_mean",
+    "importance": 54,
+    "relative_weight": 0.0095
+  },
+  {
+    "feature": "WBC_min",
+    "importance": 53,
+    "relative_weight": 0.0094
+  },
+  {
+    "feature": "PaCO2_max",
+    "importance": 52,
+    "relative_weight": 0.0092
+  },
+  {
+    "feature": "HCO3_mean",
+    "importance": 51,
+    "relative_weight": 0.009
+  },
+  {
+    "feature": "GCS_max",
+    "importance": 49,
+    "relative_weight": 0.0087
+  },
+  {
+    "feature": "Platelets_min",
+    "importance": 48,
+    "relative_weight": 0.0085
+  },
+  {
+    "feature": "Glucose_min",
+    "importance": 48,
+    "relative_weight": 0.0085
+  },
+  {
+    "feature": "HCO3_min",
+    "importance": 48,
+    "relative_weight": 0.0085
+  },
+  {
+    "feature": "Platelets_std",
+    "importance": 47,
+    "relative_weight": 0.0083
+  },
+  {
+    "feature": "Mg_mean",
+    "importance": 47,
+    "relative_weight": 0.0083
+  },
+  {
+    "feature": "DiasABP_min",
+    "importance": 46,
+    "relative_weight": 0.0081
+  }
+]
